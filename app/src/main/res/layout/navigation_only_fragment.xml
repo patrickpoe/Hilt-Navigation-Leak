@@ -11,10 +11,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="This fragment hooks up toolbar with navigation as described in the ofical documentation.
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="This fragment hooks up toolbar with navigation as described in the official documentation.
 Since this fragment its not marked as @AndroidEntry point it wont leak"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

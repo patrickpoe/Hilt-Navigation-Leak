@@ -7,7 +7,7 @@ import dagger.hilt.android.AndroidEntryPoint
 
 
 @AndroidEntryPoint
-class HiltOnlyFragment : Fragment(R.layout.leaky_fragment) {
+class HiltOnlyFragment : Fragment(R.layout.hilt_only_fragment) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
     }

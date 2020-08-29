@@ -12,10 +12,12 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="This fragment is marked with @AndroidEntryPoint os it can be injected with hilt.
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="This fragment is marked with @AndroidEntryPoint so it can be injected with hilt.
 Since its not setting up the toolbar with navigation  it wont leak"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
