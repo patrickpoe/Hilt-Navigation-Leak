@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.mpierucci.android.hiltmemleak.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_leakFragment"
+            app:destination="@id/leakFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_navigationOnlyFragment"
+            app:destination="@id/navigationOnlyFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_hiltOnlyFragment"
+            app:destination="@id/hiltOnlyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/leakFragment"
+        android:name="com.mpierucci.android.hiltmemleak.LeakFragment"
+        android:label="LeakFragment" />
+    <fragment
+        android:id="@+id/navigationOnlyFragment"
+        android:name="com.mpierucci.android.hiltmemleak.NavigationOnlyFragment"
+        android:label="NavigationOnlyFragment" />
+    <fragment
+        android:id="@+id/hiltOnlyFragment"
+        android:name="com.mpierucci.android.hiltmemleak.HiltOnlyFragment"
+        android:label="HiltOnlyFragment" />
+</navigation>
