@@ -1,5 +1,5 @@
 # Hilt-Navigation-Leak
-Project to reproduce a memory leak when using Hilt and Navigation Component
+Project to reproduce a memory leak when using Hilt and Navigation Component reported [Here](https://github.com/google/dagger/issues/2070)
 
 ## Set Up
 
