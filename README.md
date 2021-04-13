@@ -1,6 +1,10 @@
 # Hilt-Navigation-Leak
 Project to reproduce a memory leak when using Hilt and Navigation Component reported [Here](https://github.com/google/dagger/issues/2070)
 
+## Update
+
+This is now fixed in [2.34.1](https://github.com/google/dagger/releases/tag/dagger-2.34.1)
+
 ## Set Up
 
 The project has 4 fragments hooked up thorugh 	[Navigaiton Component](https://developer.android.com/guide/navigation)
